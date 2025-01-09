@@ -1,0 +1,16 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+    .list {
+        gap: 10px;
+        max-width: 320px;
+    }
+}

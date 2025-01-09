@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff6961;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ff5c5c;
+}
